@@ -5,15 +5,14 @@
 [node name="Control" type="Control" unique_id=288060578]
 layout_mode = 3
 anchor_top = -0.20500001
-anchor_right = 1.143
-anchor_bottom = 1.488
-offset_left = -404.0
-offset_top = -101.15999
-offset_right = -545.73596
-offset_bottom = -446.224
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -25.0
+offset_top = 282.84003
+offset_right = 270.0
+offset_bottom = 417.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.8546453, 0.5979944)
 script = ExtResource("1_0fbet")
 
 [node name="InsertData" type="Button" parent="." unique_id=1803820291]
@@ -22,7 +21,6 @@ offset_left = 74.0
 offset_top = 44.0
 offset_right = 338.0
 offset_bottom = 150.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Insert Data"
 
 [node name="CreateTable" type="Button" parent="." unique_id=1902946634]
@@ -31,7 +29,6 @@ offset_left = 74.0
 offset_top = -107.0
 offset_right = 338.0
 offset_bottom = -1.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Create Table"
 
 [node name="SelectData" type="Button" parent="." unique_id=1332768467]
@@ -40,7 +37,6 @@ offset_left = 74.0
 offset_top = 228.0
 offset_right = 338.0
 offset_bottom = 334.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Select Data
 "
 
@@ -50,7 +46,6 @@ offset_left = 74.0
 offset_top = 393.0
 offset_right = 338.0
 offset_bottom = 499.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Update Data"
 
 [node name="DeleteData" type="Button" parent="." unique_id=666358798]
@@ -59,8 +54,7 @@ offset_left = 74.0
 offset_top = 551.0
 offset_right = 338.0
 offset_bottom = 657.0
-scale = Vector2(1.0095347, 1.1858966)
-text = "Delete Data"
+text = "Insert Data"
 
 [node name="CustomData" type="Button" parent="." unique_id=1479650853]
 layout_mode = 0
@@ -68,26 +62,7 @@ offset_left = 74.0
 offset_top = 714.0
 offset_right = 338.0
 offset_bottom = 820.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Custom Data"
-
-[node name="StoreImage" type="Button" parent="." unique_id=1511770318]
-layout_mode = 0
-offset_left = 74.51494
-offset_top = 883.80176
-offset_right = 338.51495
-offset_bottom = 989.80176
-scale = Vector2(1.0095347, 1.1858966)
-text = "Store player image"
-
-[node name="LoadImage" type="Button" parent="." unique_id=247386882]
-layout_mode = 0
-offset_left = 72.54472
-offset_top = 1058.5383
-offset_right = 336.54474
-offset_bottom = 1164.5383
-scale = Vector2(1.0137093, 1.1858966)
-text = "Load player image"
 
 [node name="Label" type="Label" parent="." unique_id=950460573]
 layout_mode = 0
@@ -95,7 +70,6 @@ offset_left = 498.0
 offset_top = 84.0
 offset_right = 585.0
 offset_bottom = 115.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Name"
 
 [node name="Label2" type="Label" parent="." unique_id=1732382765]
@@ -104,7 +78,6 @@ offset_left = 500.0
 offset_top = 223.0
 offset_right = 587.0
 offset_bottom = 254.0
-scale = Vector2(1.0095347, 1.1858966)
 text = "Score"
 
 [node name="Name" type="TextEdit" parent="." unique_id=687068739]
@@ -113,7 +86,6 @@ offset_left = 647.0
 offset_top = 52.0
 offset_right = 832.0
 offset_bottom = 138.0
-scale = Vector2(1.0095347, 1.1858966)
 
 [node name="Score" type="TextEdit" parent="." unique_id=1686267549]
 layout_mode = 0
@@ -121,21 +93,11 @@ offset_left = 649.0
 offset_top = 191.0
 offset_right = 834.0
 offset_bottom = 277.0
-scale = Vector2(1.0095347, 1.1858966)
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1857759616]
-position = Vector2(604.9294, 536.7943)
-scale = Vector2(227477520, 123449385000)
-zoom = Vector2(1, 0.8)
-
-[node name="TextureRect" type="TextureRect" parent="." unique_id=171364899]
-layout_mode = 0
-offset_left = 572.16724
-offset_top = 513.38275
-offset_right = 705.0976
-offset_bottom = 667.7565
-scale = Vector2(3.0983646, 3.5530672)
-expand_mode = 2
+[node name="Camera2D" type="Camera2D" parent="." unique_id=814740018]
+position = Vector2(683, 337)
+zoom = Vector2(-0.65, -0.65)
+rotation_smoothing_enabled = true
 
 [connection signal="button_down" from="InsertData" to="." method="_on_insert_data_button_down"]
 [connection signal="button_down" from="CreateTable" to="." method="_on_create_table_button_down"]
@@ -143,5 +105,3 @@ expand_mode = 2
 [connection signal="button_down" from="UpdateData" to="." method="_on_update_data_button_down"]
 [connection signal="button_down" from="DeleteData" to="." method="_on_delete_data_button_down"]
 [connection signal="button_down" from="CustomData" to="." method="_on_custom_data_button_down"]
-[connection signal="button_down" from="StoreImage" to="." method="_on_store_image_button_down"]
-[connection signal="button_down" from="LoadImage" to="." method="_on_load_image_button_down"]
