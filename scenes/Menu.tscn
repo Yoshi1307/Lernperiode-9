@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://cah7bgnjy8274"]
+
+[ext_resource type="Script" uid="uid://dxbrdjmmepg7b" path="res://scripts/menu.gd" id="1_xdvgc"]
+
+[node name="Menu" type="Control" unique_id=2127451681]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xdvgc")
+
+[node name="StartGame" type="Button" parent="." unique_id=293657856]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -13.0
+offset_top = -4.0
+offset_right = 13.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start Game"
+
+[node name="NameLabel" type="Label" parent="." unique_id=788653753]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 286.0
+offset_right = 574.0
+offset_bottom = 309.0
+text = "Name"
+
+[node name="Name" type="TextEdit" parent="." unique_id=105706678]
+layout_mode = 0
+offset_left = 574.0
+offset_top = 290.0
+offset_right = 624.0
+offset_bottom = 309.0
+
+[connection signal="button_down" from="StartGame" to="." method="_on_button_button_down"]
