@@ -16,6 +16,15 @@ Heute habe ich das Tutorial fertig durchgearbeitet, das ich letztes Mal begonnen
 ## 6.3.26
 
 - [ ] Im eigenen Spiel einen Timer einfügen, der die Zeit fürs Level stoppt, und ein Ziel bauen
-- [ ] Ein Feld zum Namen-Reinschreiben hinzufügen, das den Namen in der Datenbank speichert
+- [X] Ein Feld zum Namen-Reinschreiben hinzufügen, das den Namen in der Datenbank speichert
 - [ ] Machen, dass die gelaufene Zeit in der Datenbank beim dazugehörigen Namen gespeichert wird
 - [ ] Machen, dass, falls die gelaufene Zeit schneller war, sie upgedatet wird
+
+Heute wollte ich als Erstes den Timer erstellen. Ich habe sehr lange nach Tutorials gesucht und probierte es anhand von ihnen, auch wenn sie nicht genau mit dem übereinstimmten, was ich wollte, weil es kein besseres Tutorial gab. Ich hatte verschiedene Arten von Timern, aber keiner machte das, was ich wollte, und ich wusste nicht, wie ich das verändern sollte, damit es funktioniert. Ich bin dann einfach zum Teil mit der Datenbank übergegangen und habe ein Startmenü mit den Knöpfen erstellt, die die Datenbank erstellen und den Namen speichern. Jedoch wird er noch nicht angezeigt und ich habe noch nicht herausgefunden, wie das geht.
+
+## 13.3.26
+- [ ] Menü Szene an den Anfang des Spiels packen, damit man sich zuerst "Anmelden" muss
+- [ ] Im eigenen Spiel einen Timer einfügen, der die Zeit fürs Level stoppt, und ein Ziel bauen
+- [ ] Machen, dass die gelaufene Zeit in der Datenbank beim dazugehörigen Namen gespeichert wird
+- [ ] Machen, dass, falls die gelaufene Zeit schneller war, sie upgedatet wird
+
