@@ -28,10 +28,10 @@ Heute wollte ich als Erstes den Timer erstellen. Ich habe sehr lange nach Tutori
 - [ ] Machen, dass die gelaufene Zeit in der Datenbank beim dazugehörigen Namen gespeichert wird
 - [ ] Machen, dass, falls die gelaufene Zeit schneller war, sie upgedatet wird
 
-Ich habe heute damit begonnen die Menü Szene an den Beginn des Spiels zu packen und wenn man sich dort angemeldet hat kommt man ins Spiel. Dies war einfacher als gedacht. Danach habe ich ein Ziel erstellt, das wenn man es betritt etwas in der Datenbank passiert. Weil ich einen Timergeplant hatte, habe ich wieder lange versucht einen Timer für das Level zu erstellen, konnte aber auf kein gescheites Ergebnis kommen und habe die Idee verworfen. Ich habe danach einfach eine Art punktesystem erstellt, dass wenn man ins Ziel kommt dem Spieler 1 Punkt gutgeschrieben wird. Ich weis noch nicht wieso, aber Punkt wird momentan in einer anderen Datenbank gespeichert als der Rest.
+Ich habe heute damit begonnen, die Menüszene an den Beginn des Spiels zu packen, und wenn man sich dort angemeldet hat, kommt man ins Spiel. Dies war einfacher als gedacht. Danach habe ich ein Ziel erstellt, das, wenn man es betritt, etwas in der Datenbank passieren lässt. Weil ich einen Timer geplant hatte, habe ich wieder lange versucht, einen Timer für das Level zu erstellen, konnte aber auf kein gescheites Ergebnis kommen und habe die Idee verworfen. Ich habe danach einfach eine Art Punktesystem erstellt, dass, wenn man ins Ziel kommt, dem Spieler 1 Punkt gutschreibt. Ich weiss noch nicht wieso, aber Punkt wird momentan in einer anderen Datenbank gespeichert als der Rest. Das Spiel ist wieso auch immer jetzt wieder unscharf.
 
 ## 20.3.26
-- [ ] Machen, dass wenn man ins Ziel kommt, der Punkt in der Datenbank beim dazugehörigen Namen gespeichert wird
-- [ ] Machen, dass man nur 1mal den gleichen Namen haben kann
-- [ ] Wenn man 2 mal ins Ziel kommt geht der Punktestand hoch
-- [ ] Timer nochmal probieren
+- [ ] Machen, dass, wenn man ins Ziel kommt, der Punkt in der Datenbank beim dazugehörigen Namen gespeichert wird
+- [ ] Machen, dass man nur 1-mal den gleichen Namen haben kann
+- [ ] Wenn man 2 mal ins Ziel kommt, geht der Punktestand hoch
+- [ ] Das Spiel wieder scharf machen
