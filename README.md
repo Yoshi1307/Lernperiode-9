@@ -23,8 +23,15 @@ Heute habe ich das Tutorial fertig durchgearbeitet, das ich letztes Mal begonnen
 Heute wollte ich als Erstes den Timer erstellen. Ich habe sehr lange nach Tutorials gesucht und probierte es anhand von ihnen, auch wenn sie nicht genau mit dem übereinstimmten, was ich wollte, weil es kein besseres Tutorial gab. Ich hatte verschiedene Arten von Timern, aber keiner machte das, was ich wollte, und ich wusste nicht, wie ich das verändern sollte, damit es funktioniert. Ich bin dann einfach zum Teil mit der Datenbank übergegangen und habe ein Startmenü mit den Knöpfen erstellt, die die Datenbank erstellen und den Namen speichern. Jedoch wird er noch nicht angezeigt und ich habe noch nicht herausgefunden, wie das geht.
 
 ## 13.3.26
-- [ ] Menü Szene an den Anfang des Spiels packen, damit man sich zuerst "Anmelden" muss
+- [x] Menü Szene an den Anfang des Spiels packen, damit man sich zuerst "Anmelden" muss
 - [ ] Im eigenen Spiel einen Timer einfügen, der die Zeit fürs Level stoppt, und ein Ziel bauen
 - [ ] Machen, dass die gelaufene Zeit in der Datenbank beim dazugehörigen Namen gespeichert wird
 - [ ] Machen, dass, falls die gelaufene Zeit schneller war, sie upgedatet wird
 
+Ich habe heute damit begonnen die Menü Szene an den Beginn des Spiels zu packen und wenn man sich dort angemeldet hat kommt man ins Spiel. Dies war einfacher als gedacht. Danach habe ich ein Ziel erstellt, das wenn man es betritt etwas in der Datenbank passiert. Weil ich einen Timergeplant hatte, habe ich wieder lange versucht einen Timer für das Level zu erstellen, konnte aber auf kein gescheites Ergebnis kommen und habe die Idee verworfen. Ich habe danach einfach eine Art punktesystem erstellt, dass wenn man ins Ziel kommt dem Spieler 1 Punkt gutgeschrieben wird. Ich weis noch nicht wieso, aber Punkt wird momentan in einer anderen Datenbank gespeichert als der Rest.
+
+## 20.3.26
+- [ ] Machen, dass wenn man ins Ziel kommt, der Punkt in der Datenbank beim dazugehörigen Namen gespeichert wird
+- [ ] Machen, dass man nur 1mal den gleichen Namen haben kann
+- [ ] Wenn man 2 mal ins Ziel kommt geht der Punktestand hoch
+- [ ] Timer nochmal probieren
