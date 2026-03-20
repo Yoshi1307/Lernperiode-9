@@ -35,3 +35,11 @@ Ich habe heute damit begonnen, die Menüszene an den Beginn des Spiels zu packen
 - [x] Machen, dass man nur 1-mal den gleichen Namen haben kann
 - [x] Wenn man 2 mal ins Ziel kommt, geht der Punktestand hoch
 - [x] Das Spiel wieder scharf machen
+
+Heute habe ich zuerst den Fehler mit der 2. Datenbank behoben. Es war eigentlich ein dummer Fehler und ich habe einfach den falschen Pfad angegeben. Mithilfe eines SQL-Querys habe ich gemacht, dass ein Name nur 1-mal in der Datenbank ist, und die Daten zum ersten Nutzer mit diesem Namen hinzugefügt werden. Der Punktestand geht jetzt auch hoch, wenn man in mehreren Läufen ins Ziel kommt. In den Einstellungen habe ich das Spiel wieder scharf gemacht, dafür ist das Menü etwas unschärfer.
+
+## 27.3.26
+- [ ] Letzter Versuch, einen Timer zu erstellen
+- [ ] Den Score in der Datenbank mit der Zeit vom Timer ersetzen
+- [ ] Zeit updatet sich, wenn sie besser als zuvor ist
+- [ ] Rangliste der Zeiten erstellen
