@@ -5,6 +5,7 @@ var database : SQLite
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 
+
 func _ready():
 	database = SQLite.new()
 	database.path = "res://data.db"
@@ -39,3 +40,5 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 
 		var query = "UPDATE players SET score = score + 1 WHERE name = '%s';" % Global.current_player_name
 		database.query(query)
+		
+		
