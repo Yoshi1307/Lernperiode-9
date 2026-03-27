@@ -43,3 +43,5 @@ Heute habe ich zuerst den Fehler mit der 2. Datenbank behoben. Es war eigentlich
 - [ ] Den Score in der Datenbank mit der Zeit vom Timer ersetzen
 - [ ] Zeit updatet sich, wenn sie besser als zuvor ist
 - [ ] Rangliste der Zeiten erstellen
+
+Ich habe wieder versucht einen Timer zu erstellen und habe es nicht geschafft. Nach meinem Versuch habe ich das Spiel noch etwas schöner gemacht und den Hintergrund verändert. Dem Ziel habe ich jetzt auch eine Textur gegeben, nicht genau was ich wollte, aber besser als zu beginn.
