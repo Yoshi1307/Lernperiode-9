@@ -1,5 +1,15 @@
 # Lernperiode-9
 
+## Fertiges Spiel
+Das Spiel ist ein kurzes Jump-and-Run, bei dem das Ziel erreicht werden muss. Sobald das Ziel erreicht wird, erhöht sich der Score um 1 Punkt. Der Score wird zusammen mit dem Namen des Spielers in einer SQLite-Datenbank gespeichert.
+
+Beim Start gibt der Spieler seinen Namen ein. Das Spiel überprüft, ob dieser bereits in der Datenbank vorhanden ist. Falls nicht, wird ein neuer Eintrag mit einer eigenen ID erstellt. Die erreichten Punkte werden anschliessend dem jeweiligen Spieler zugeordnet und gespeichert.
+
+Das Spiel wurde mit Godot entwickelt und verwendet SQLite zur Speicherung der Spielerdaten.
+<img width="1144" height="646" alt="grafik" src="https://github.com/user-attachments/assets/24abacf4-db12-46c7-8a12-251cee146c46" />
+<img width="208" height="104" alt="grafik" src="https://github.com/user-attachments/assets/1a1720f9-5b8c-4601-89f8-307f1cff0161" />
+
+
 ## 20.2.26
 
 Weil ich im letzten Modul etwas aus der Kategorie Games (Godot) ausgewählt hatte, sollte ich dieses Mal etwas mit Datenbanken machen. Die 3 Technologien, die ich mir angeschaut habe, waren SQLite, PostgreSQL und SQLAlchemy. Ich habe mich dann schlussendlich für SQLite entschieden, weil ich davon schonmal gehört habe und es selber verwenden möchte. Zuerst habe ich mir die Version für die Konsole heruntergeladen und die Basics probiert. Als Nächstes habe ich die Version mit GUI heruntergeladen und da auch etwas herumprobiert. Die GUI-Version gefiel mir aber besser, da es für mich einfacher ist, wenn es selbsterklärend ist, und ich kein Tutorial dafür brauche. Um aber mein Spiel in Godot mit einer Datenbank zu verbinden, musste ich lange suchen, bis ich etwas nicht allzu Kompliziertes fand. Ich musste mir in einer Add-on-Bibliothek ein Add-on herunterladen und arbeite gerade an diesem Tutorial, das mir zeigt, wie ich SQLite mit Godot verwende. https://www.youtube.com/watch?v=j-BRiTrw_F0
@@ -38,10 +48,4 @@ Ich habe heute damit begonnen, die Menüszene an den Beginn des Spiels zu packen
 
 Heute habe ich zuerst den Fehler mit der 2. Datenbank behoben. Es war eigentlich ein dummer Fehler und ich habe einfach den falschen Pfad angegeben. Mithilfe eines SQL-Querys habe ich gemacht, dass ein Name nur 1-mal in der Datenbank ist, und die Daten zum ersten Nutzer mit diesem Namen hinzugefügt werden. Der Punktestand geht jetzt auch hoch, wenn man in mehreren Läufen ins Ziel kommt. In den Einstellungen habe ich das Spiel wieder scharf gemacht, dafür ist das Menü etwas unschärfer.
 
-## 27.3.26
-- [ ] Letzter Versuch, einen Timer zu erstellen
-- [ ] Den Score in der Datenbank mit der Zeit vom Timer ersetzen
-- [ ] Zeit updatet sich, wenn sie besser als zuvor ist
-- [ ] Rangliste der Zeiten erstellen
 
-Ich habe wieder versucht einen Timer zu erstellen und habe es nicht geschafft. Nach meinem Versuch habe ich das Spiel noch etwas schöner gemacht und den Hintergrund verändert. Dem Ziel habe ich jetzt auch eine Textur gegeben, nicht genau was ich wollte, aber besser als zu beginn.
