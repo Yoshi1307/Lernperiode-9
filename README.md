@@ -6,7 +6,7 @@ Das Spiel ist ein kurzes Jump-and-Run, bei dem das Ziel erreicht werden muss. So
 Beim Start gibt der Spieler seinen Namen ein. Das Spiel überprüft, ob dieser bereits in der Datenbank vorhanden ist. Falls nicht, wird ein neuer Eintrag mit einer eigenen ID erstellt. Die erreichten Punkte werden anschliessend dem jeweiligen Spieler zugeordnet und gespeichert.
 
 Das Spiel wurde mit Godot entwickelt und verwendet SQLite zur Speicherung der Spielerdaten.
-<img width="1144" height="646" alt="grafik" src="https://github.com/user-attachments/assets/24abacf4-db12-46c7-8a12-251cee146c46" />
+<img width="640" heigt="360" alt="grafik" src="https://github.com/user-attachments/assets/24abacf4-db12-46c7-8a12-251cee146c46" />
 <img width="208" height="104" alt="grafik" src="https://github.com/user-attachments/assets/1a1720f9-5b8c-4601-89f8-307f1cff0161" />
 
 
